@@ -1,0 +1,79 @@
+PIN   M10           UC15
+---   ---           ----
+1     SD_DATA       RESERVED
+2     SD_CLK        AP_READY
+3     SD_CMD        RESERVED
+4     RESERVED      RESERVED
+5     RESERVED      RESERVED
+6     NETLIGHT      NETLIGHT
+7     VDD_EXT       VDD_EXT
+8     GND           USIM_GND 
+9     DBG_RXD       RESERVED
+10    DBG_TXD       RESERVED
+11    SIM_PRESENCE  USIM_PRESENCE
+12    SIM_VDD       USIM_VDD
+13    SIM_DATA      USIM_DATA
+14    SIM_CLK       USIM_CLK
+15    SIM_RST       USIM_RST
+16    VRTC          RESERVED
+17    EMERG_OFF     RESET_N
+18    PWERKEY       PWRKEY
+19    AGND          AGND
+20    SPK2P         SPK2P
+21    SPK1N         SPK1N
+22    SPK1P         SPK1P
+23    MIC1P         MIC1P
+24    MIC1N         MIC1N
+25    MIC2P         MIC2P
+26    MIC2N         MIC2N
+27    RESERVED      RESERVED
+28    RESERVED      RESERVED
+29    RESERVED      RESERVED
+30    RESERVED      RESERVED
+31    RESERVED      RESERVED
+32    RESERVED      RESERVED
+33    RESERVED      RESERVED
+34    RESERVED      PCM_DOUT
+35    RESERVED      PCM_DIN
+36    RESERVED      PCM_CLK
+37    RESERVED      PCM_SYNC
+38    GPIO1         I2C_SDA
+39    RESERVED      I2C_SCL
+40    ADC1          ADC1
+41    ADC0          ADC0
+42    GND           GND
+43    RF_ANT        RF_ANT
+44    GND           GND
+45    GND           GND
+46    GND           GND
+47    GND           GND
+48    GND           GND
+49    GND           GND
+50    VBAT          VBAT_RF
+51    VBAT          VBAT_RF
+52    VBAT          VBAT_BB
+53    RESERVED      VBAT_BB
+54    STATUS        STATUS
+55    RI            RI
+56    DCD           DCD
+57    CTS           CTS
+58    RTS           RTS
+59    DTR           DTR
+60    TXD           TXD
+61    RXD           RXD
+62    TXD3          USB_DP
+63    RXD3          USB_DM
+64    GPIO0         USB_VBUS
+
+65                  GND
+66                  RESERVED
+67                  GND
+68                  GND
+69-80               RESERVED
+81-108              GND
+
+NOTES
+
+1. Keep all RESERVED pins and unused pins unconnected.
+2. GND pads 81-108 should be connected to ground. 
+3. We need the Telematics version to support the speakers and mic.
