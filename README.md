@@ -23,9 +23,9 @@ That project uses the 2G Quectel M10 Module which is pin compatible with the 3G 
 
 **Vocabulary**
 
-GSM - Global System for Mobile Communications, 2G
-GPRS - General Packet Radio Services, packet data service on 2G and 3G 
-UMTS - Universal Mobile Telecommunications System, 3G
+GSM - Global System for Mobile Communications, 2G  
+GPRS - General Packet Radio Services, packet data service on 2G and 3G  
+UMTS - Universal Mobile Telecommunications System, 3G  
 HSDPA - High-Speed Downlink Packet Access, allows higher speeds 3G speeds
 
 **Reference**
