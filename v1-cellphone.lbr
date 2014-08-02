@@ -14653,56 +14653,56 @@ distributor RS 112-3794</description>
 <text x="5.334" y="1.778" size="2.54" layer="94" rot="R90">USB</text>
 </symbol>
 <symbol name="AVR-5_ATMEGA164P/324P/644P-TQFP">
-<wire x1="-20.32" y1="45.72" x2="20.32" y2="45.72" width="0.254" layer="94"/>
-<wire x1="20.32" y1="45.72" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-45.72" x2="-20.32" y2="-45.72" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-45.72" x2="-20.32" y2="45.72" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="45.72" x2="33.02" y2="45.72" width="0.254" layer="94"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-58.42" x2="-20.32" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-58.42" x2="-20.32" y2="45.72" width="0.254" layer="94"/>
 <pin name="!RESET" x="-25.4" y="43.18" length="middle" direction="in"/>
-<pin name="(ADC0/PCINT0)PA0" x="25.4" y="43.18" length="middle" rot="R180"/>
-<pin name="(ADC1/PCINT1)PA1" x="25.4" y="40.64" length="middle" rot="R180"/>
-<pin name="(ADC2/PCINT2)PA2" x="25.4" y="38.1" length="middle" rot="R180"/>
-<pin name="(ADC3/PCINT3)PA3" x="25.4" y="35.56" length="middle" rot="R180"/>
-<pin name="(ADC4/PCINT4)PA4" x="25.4" y="33.02" length="middle" rot="R180"/>
-<pin name="(ADC5/PCINT5)PA5" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="(ADC6/PCINT6)PA6" x="25.4" y="27.94" length="middle" rot="R180"/>
-<pin name="(ADC7/PCINT7)PA7" x="25.4" y="25.4" length="middle" rot="R180"/>
-<pin name="(CLKO/T1/PCINT9)PB1" x="25.4" y="15.24" length="middle" rot="R180"/>
-<pin name="(INT2/AIN0/PCINT10)PB2" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="(ADC0/PCINT0)PA0" x="38.1" y="43.18" length="middle" rot="R180"/>
+<pin name="(ADC1/PCINT1)PA1" x="38.1" y="40.64" length="middle" rot="R180"/>
+<pin name="(ADC2/PCINT2)PA2" x="38.1" y="38.1" length="middle" rot="R180"/>
+<pin name="(ADC3/PCINT3)PA3" x="38.1" y="35.56" length="middle" rot="R180"/>
+<pin name="(ADC4/PCINT4)PA4" x="38.1" y="33.02" length="middle" rot="R180"/>
+<pin name="(ADC5/PCINT5)PA5" x="38.1" y="30.48" length="middle" rot="R180"/>
+<pin name="(ADC6/PCINT6)PA6" x="38.1" y="27.94" length="middle" rot="R180"/>
+<pin name="(ADC7/PCINT7)PA7" x="38.1" y="25.4" length="middle" rot="R180"/>
+<pin name="(CLKO/T1/PCINT9)PB1" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="(INT2/AIN0/PCINT10)PB2" x="38.1" y="12.7" length="middle" rot="R180"/>
 <pin name="(MISO/PCINT14)PB6" x="-25.4" y="-10.16" length="middle"/>
 <pin name="(MOSI/PCINT13)PB5" x="-25.4" y="-7.62" length="middle"/>
-<pin name="(OC0A/AIN1/PCINT11)PB3" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="(OC0A/AIN1/PCINT11)PB3" x="38.1" y="10.16" length="middle" rot="R180"/>
 <pin name="(OC0B/!SS!/PCINT12)PB4" x="-25.4" y="-38.1" length="middle"/>
-<pin name="(OC1A/PCINT29)PD5" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="(OC2A/PCINT31)PD7" x="25.4" y="-43.18" length="middle" rot="R180"/>
-<pin name="(OC2B/ICP/PCINT30)PD6" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="(OC1A/PCINT29)PD5" x="38.1" y="-38.1" length="middle" rot="R180"/>
+<pin name="(OC2A/PCINT31)PD7" x="38.1" y="-43.18" length="middle" rot="R180"/>
+<pin name="(OC2B/ICP/PCINT30)PD6" x="38.1" y="-40.64" length="middle" rot="R180"/>
 <pin name="(RXD0/PCINT24)PD0" x="-25.4" y="-30.48" length="middle"/>
 <pin name="(RXD1/INT0/PCINT26)PD2" x="-25.4" y="-17.78" length="middle"/>
 <pin name="(SCK/PCINT15)PB7" x="-25.4" y="-12.7" length="middle"/>
-<pin name="(SCL/PCINT16)PC0" x="25.4" y="2.54" length="middle" rot="R180"/>
-<pin name="(SDA/PCINT17)PC1" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="(TCK/PCINT18)PC2" x="25.4" y="-2.54" length="middle" rot="R180"/>
-<pin name="(TDI/PCINT21)PC5" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="(TDO/PCINT20)PC4" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="(TMS/PCINT19)PC3" x="25.4" y="-10.16" length="middle" rot="R180"/>
-<pin name="(TOSC1/PCINT22)PC6" x="25.4" y="-22.86" length="middle" rot="R180"/>
-<pin name="(TOSC2/PCINT23)PC7" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="(SCL/PCINT16)PC0" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="(SDA/PCINT17)PC1" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="(TCK/PCINT18)PC2" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="(TDI/PCINT21)PC5" x="38.1" y="-20.32" length="middle" rot="R180"/>
+<pin name="(TDO/PCINT20)PC4" x="38.1" y="-17.78" length="middle" rot="R180"/>
+<pin name="(TMS/PCINT19)PC3" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="(TOSC1/PCINT22)PC6" x="38.1" y="-22.86" length="middle" rot="R180"/>
+<pin name="(TOSC2/PCINT23)PC7" x="38.1" y="-25.4" length="middle" rot="R180"/>
 <pin name="(TXD0/PCINT25)PD1" x="-25.4" y="-33.02" length="middle"/>
 <pin name="(TXD1/INT1/PCINT27)PD3" x="-25.4" y="-22.86" length="middle"/>
-<pin name="(XCK0/T0/PCINT8)PB0" x="25.4" y="17.78" length="middle" rot="R180"/>
-<pin name="(XCK1/OC1B/PCINT28)PD4" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="AREF" x="-25.4" y="25.4" length="middle" direction="pwr"/>
-<pin name="AVCC" x="-25.4" y="22.86" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-25.4" y="5.08" length="middle" direction="pwr"/>
-<pin name="GND@2" x="-25.4" y="2.54" length="middle" direction="pwr"/>
-<pin name="GND@3" x="-25.4" y="0" length="middle" direction="pwr"/>
-<pin name="GND@4" x="-25.4" y="-2.54" length="middle" direction="pwr"/>
-<pin name="VCC@1" x="-25.4" y="15.24" length="middle" direction="pwr"/>
-<pin name="VCC@2" x="-25.4" y="12.7" length="middle" direction="pwr"/>
-<pin name="VCC@3" x="-25.4" y="10.16" length="middle" direction="pwr"/>
+<pin name="(XCK0/T0/PCINT8)PB0" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="(XCK1/OC1B/PCINT28)PD4" x="38.1" y="-35.56" length="middle" rot="R180"/>
+<pin name="AREF" x="7.62" y="-63.5" length="middle" direction="pwr" rot="R90"/>
+<pin name="AVCC" x="5.08" y="50.8" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND@1" x="-2.54" y="-63.5" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="0" y="-63.5" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@3" x="2.54" y="-63.5" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@4" x="5.08" y="-63.5" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC@1" x="-2.54" y="50.8" length="middle" direction="pwr" rot="R270"/>
+<pin name="VCC@2" x="0" y="50.8" length="middle" direction="pwr" rot="R270"/>
+<pin name="VCC@3" x="2.54" y="50.8" length="middle" direction="pwr" rot="R270"/>
 <pin name="XTAL1" x="-25.4" y="30.48" length="middle" direction="in"/>
 <pin name="XTAL2" x="-25.4" y="35.56" length="middle" direction="out"/>
 <text x="-20.32" y="46.99" size="1.778" layer="95">&gt;NAME</text>
-<text x="-20.32" y="-48.26" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-20.32" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CELLPHONE_ARDUINO_SERIAL_PROGRAM">
 <wire x1="1.27" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
@@ -14736,8 +14736,8 @@ distributor RS 112-3794</description>
 <wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
 <wire x1="0" y1="0.635" x2="2.54" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
-<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-1.905" y="6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.175" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -14986,7 +14986,7 @@ distributor RS 112-3794</description>
 <pin name="50-51-VBAT_RF" x="-27.94" y="25.4" length="middle"/>
 <pin name="52-53-VBAT_BB" x="-27.94" y="33.02" length="middle"/>
 <pin name="54-STATUS" x="55.88" y="22.86" length="middle" rot="R180"/>
-<pin name="55-RI" x="55.88" y="27.94" length="middle" rot="R180"/>
+<pin name="55-RI" x="55.88" y="-7.62" length="middle" rot="R180"/>
 <pin name="56-DCD" x="55.88" y="5.08" length="middle" rot="R180"/>
 <pin name="57-CTS" x="55.88" y="7.62" length="middle" rot="R180"/>
 <pin name="58-RTS" x="55.88" y="10.16" length="middle" rot="R180"/>
