@@ -14996,8 +14996,8 @@ distributor RS 112-3794</description>
 <pin name="62-USB_DP" x="-27.94" y="-12.7" length="middle"/>
 <pin name="63-USB_DM" x="-27.94" y="-10.16" length="middle"/>
 <pin name="64-USB_VBUS" x="-27.94" y="-7.62" length="middle"/>
-<text x="-22.86" y="48.26" size="1.27" layer="95">&gt;NAME</text>
-<text x="-22.86" y="45.72" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="49.276" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.606" y="46.482" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="55.88" y="-55.88" length="middle" rot="R180"/>
 </symbol>
 </symbols>

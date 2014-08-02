@@ -2629,23 +2629,21 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J1" pad="4"/>
 <wire x1="34.036" y1="36.433" x2="-52.832" y2="-61.722" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RESET">
-<contactref element="R4" pad="1"/>
+<signal name="!RESET">
 <contactref element="C1" pad="2"/>
 <wire x1="47.879" y1="35.671" x2="47.879" y2="33.655" width="0.254" layer="1"/>
 <wire x1="47.879" y1="33.655" x2="47.879" y2="29.591" width="0.254" layer="1"/>
 <wire x1="47.879" y1="29.591" x2="50.188" y2="29.591" width="0.254" layer="1"/>
-<wire x1="38.109" y1="28.194" x2="37.855" y2="30.715" width="0.254" layer="16"/>
-<wire x1="37.855" y1="30.715" x2="37.954" y2="30.715" width="0.254" layer="16"/>
 <wire x1="47.879" y1="35.671" x2="39.732" y2="35.671" width="0.254" layer="1"/>
 <wire x1="46.088" y1="33.636" x2="47.86" y2="33.636" width="0.254" layer="1"/>
 <wire x1="47.86" y1="33.636" x2="47.879" y2="33.655" width="0.254" layer="1"/>
 <contactref element="J1" pad="5"/>
 <contactref element="S1" pad="P$2"/>
 <contactref element="U2" pad="4"/>
+<contactref element="R4" pad="1"/>
 <wire x1="38.022" y1="28.194" x2="-50.292" y2="-64.262" width="0" layer="19" extent="16-16"/>
-<wire x1="38.109" y1="28.194" x2="38.022" y2="28.194" width="0" layer="19" extent="16-16"/>
-<wire x1="39.732" y1="35.671" x2="37.954" y2="30.715" width="0" layer="19" extent="1-16"/>
+<wire x1="37.855" y1="30.715" x2="38.022" y2="28.194" width="0" layer="19" extent="16-16"/>
+<wire x1="39.732" y1="35.671" x2="37.855" y2="30.715" width="0" layer="19" extent="1-16"/>
 <wire x1="50.188" y1="29.556" x2="50.188" y2="29.591" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">

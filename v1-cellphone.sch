@@ -22668,8 +22668,8 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <pin name="62-USB_DP" x="-27.94" y="-12.7" length="middle"/>
 <pin name="63-USB_DM" x="-27.94" y="-10.16" length="middle"/>
 <pin name="64-USB_VBUS" x="-27.94" y="-7.62" length="middle"/>
-<text x="-22.86" y="48.26" size="1.27" layer="95">&gt;NAME</text>
-<text x="-22.86" y="45.72" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-22.86" y="49.276" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.606" y="46.482" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="55.88" y="-55.88" length="middle" rot="R180"/>
 </symbol>
 <symbol name="SPARKFUN_MCP73831">
@@ -28970,7 +28970,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <plain>
 <text x="447.04" y="233.68" size="1.778" layer="97">Chip Antenna</text>
 <text x="449.58" y="172.72" size="1.778" layer="97">SMA or U.FL connector</text>
-<text x="447.04" y="121.92" size="1.778" layer="97">CHIP SUPPORTS BOTH 1.8V and 3.0V SIM CARDS</text>
+<text x="459.74" y="121.92" size="1.778" layer="97">UC15 MODULE SUPPORTS 
+BOTH 1.8V AND 3.0V SIM CARDS</text>
 <text x="368.3" y="114.3" size="1.778" layer="94" align="center">X</text>
 <text x="472.44" y="101.6" size="1.778" layer="94" align="center">X</text>
 <text x="284.48" y="124.46" size="1.778" layer="94" align="center">X</text>
@@ -29008,6 +29009,13 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <wire x1="513.08" y1="38.1" x2="513.08" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="513.08" y1="10.16" x2="403.86" y2="10.16" width="0.1524" layer="97"/>
 <wire x1="513.08" y1="38.1" x2="403.86" y2="38.1" width="0.1524" layer="97"/>
+<text x="63.5" y="248.92" size="1.778" layer="97">INPUT MICRO USB FOR 
+VOLTAGE OFF BATTERY</text>
+<text x="160.02" y="248.92" size="1.778" layer="97">BATTERY MANAGEMENT</text>
+<text x="116.84" y="203.2" size="1.778" layer="97">PLACE ONE BYPASS CAP AT EACH VCC PIN</text>
+<text x="83.312" y="184.658" size="1.778" layer="97">ATMEGA1284 
+MICROCONTROLLER</text>
+<text x="309.626" y="173.736" size="1.778" layer="97">3G CELLPHONE MODULE</text>
 </plain>
 <instances>
 <instance part="ANT1" gate="G$1" x="439.42" y="231.14"/>
@@ -29041,8 +29049,8 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <instance part="R2" gate="G$1" x="393.7" y="106.68"/>
 <instance part="R3" gate="G$1" x="406.4" y="101.6"/>
 <instance part="U2" gate="G$1" x="114.3" y="134.62"/>
-<instance part="R4" gate="G$1" x="78.74" y="193.04" rot="R90"/>
-<instance part="C1" gate="G$1" x="33.02" y="76.2"/>
+<instance part="R4" gate="G$1" x="10.16" y="195.58" rot="R90"/>
+<instance part="C1" gate="G$1" x="40.64" y="76.2"/>
 <instance part="JP3" gate="G$1" x="332.74" y="238.76" rot="MR0"/>
 <instance part="U1" gate="G$1" x="172.72" y="238.76"/>
 <instance part="C3" gate="G$1" x="134.62" y="233.68"/>
@@ -29063,7 +29071,7 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <instance part="MIC2" gate="G$1" x="251.46" y="35.56" rot="R180"/>
 <instance part="JP5" gate="A" x="193.04" y="93.98"/>
 <instance part="JP1" gate="A" x="180.34" y="111.76"/>
-<instance part="JP7" gate="G$1" x="20.32" y="83.82"/>
+<instance part="JP7" gate="G$1" x="27.94" y="83.82"/>
 <instance part="JP4" gate="A" x="193.04" y="134.62"/>
 <instance part="LED3" gate="G$1" x="233.68" y="236.22"/>
 <instance part="R1" gate="G$1" x="233.68" y="226.06" rot="R90"/>
@@ -29078,7 +29086,7 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <instance part="R8" gate="G$1" x="190.5" y="231.14" rot="R90"/>
 <instance part="J2" gate="G$1" x="71.12" y="228.6"/>
 <instance part="SUPPLY1" gate="G$1" x="223.52" y="243.84"/>
-<instance part="SUPPLY2" gate="G$1" x="78.74" y="200.66"/>
+<instance part="SUPPLY2" gate="G$1" x="10.16" y="203.2"/>
 <instance part="JP8" gate="G$1" x="332.74" y="223.52" rot="MR0"/>
 <instance part="JP9" gate="G$1" x="332.74" y="208.28" rot="MR0"/>
 <instance part="GND3" gate="1" x="233.68" y="213.36"/>
@@ -29104,12 +29112,12 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <instance part="R11" gate="G$1" x="210.82" y="248.92" rot="R90"/>
 <instance part="R12" gate="G$1" x="210.82" y="231.14" rot="R90"/>
 <instance part="GND13" gate="1" x="210.82" y="213.36"/>
-<instance part="SUPPLY3" gate="G$1" x="38.1" y="96.52"/>
+<instance part="SUPPLY3" gate="G$1" x="45.72" y="96.52"/>
 <instance part="SUPPLY4" gate="G$1" x="22.86" y="142.24"/>
 <instance part="SUPPLY5" gate="G$1" x="104.14" y="246.38"/>
 <instance part="D1" gate="G$1" x="91.44" y="241.3"/>
 <instance part="D2" gate="G$1" x="30.48" y="137.16" rot="R180"/>
-<instance part="D3" gate="G$1" x="30.48" y="86.36"/>
+<instance part="D3" gate="G$1" x="38.1" y="86.36"/>
 <instance part="C10" gate="CE" x="43.18" y="154.94"/>
 <instance part="C14" gate="CE" x="60.96" y="154.94"/>
 <instance part="GND14" gate="1" x="60.96" y="147.32" rot="MR0"/>
@@ -29147,7 +29155,7 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <net name="4V" class="1">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="198.12" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="200.66" x2="10.16" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="4V"/>
 </segment>
 <segment>
@@ -29291,8 +29299,8 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 </net>
 <net name="GND" class="2">
 <segment>
-<wire x1="25.4" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="27.94" y="91.44" size="1.778" layer="95"/>
+<wire x1="33.02" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="35.56" y="91.44" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -29631,13 +29639,11 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 </net>
 <net name="MIC2N" class="0">
 <segment>
-<wire x1="261.62" y1="25.4" x2="345.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="25.4" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
-<label x="266.7" y="25.4" size="1.778" layer="95"/>
+<wire x1="254" y1="22.86" x2="345.44" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="22.86" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="266.7" y="22.86" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="26-MIC2N"/>
-<wire x1="261.62" y1="25.4" x2="261.62" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="MIC1" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="22.86" x2="254" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MIC1P" class="0">
@@ -29727,35 +29733,36 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <pinref part="J1" gate="G$1" pin="4-MOSI"/>
 </segment>
 </net>
-<net name="RESET" class="0">
-<segment>
-<wire x1="83.82" y1="185.42" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="185.42" x2="78.74" y2="187.96" width="0.1524" layer="91"/>
-<label x="83.82" y="185.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="S1" gate="G$1" pin="S"/>
-<wire x1="48.26" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="177.8" x2="78.74" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="!RESET"/>
-<wire x1="88.9" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
-<junction x="78.74" y="177.8"/>
-<junction x="78.74" y="185.42"/>
-</segment>
+<net name="!RESET" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="71.12" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<label x="40.64" y="68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
+<wire x1="40.64" y1="71.12" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="30.48" y="68.58" size="1.778" layer="95"/>
+<wire x1="40.64" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="68.58" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5-RESET"/>
-<wire x1="43.18" y1="127" x2="25.4" y2="127" width="0.1524" layer="91"/>
-<label x="25.4" y="127" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="43.18" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<label x="22.86" y="127" size="1.778" layer="95" rot="MR0"/>
+<wire x1="10.16" y1="127" x2="10.16" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="195.58" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<label x="60.96" y="195.58" size="1.778" layer="95" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="S"/>
+<wire x1="48.26" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="177.8" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="!RESET"/>
+<wire x1="88.9" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<junction x="60.96" y="177.8"/>
+<junction x="60.96" y="187.96"/>
+<junction x="10.16" y="127"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="187.96" x2="10.16" y2="190.5" width="0.1524" layer="91"/>
+<junction x="10.16" y="187.96"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="25.4" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="JP7" gate="G$1" pin="DTR"/>
 </segment>
@@ -29766,15 +29773,15 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <label x="86.36" y="104.14" size="1.778" layer="95" rot="MR0"/>
 <wire x1="88.9" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
-<label x="40.64" y="83.82" size="1.778" layer="95"/>
+<wire x1="63.5" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
+<label x="48.26" y="83.82" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="TXO"/>
 </segment>
 </net>
 <net name="TXD0" class="0">
 <segment>
-<wire x1="66.04" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<label x="40.64" y="81.28" size="1.778" layer="95"/>
+<wire x1="66.04" y1="81.28" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="48.26" y="81.28" size="1.778" layer="95"/>
 <pinref part="JP7" gate="G$1" pin="RXI"/>
 <wire x1="66.04" y1="81.28" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="(TXD0/PCINT25)PD1"/>
@@ -30125,10 +30132,10 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="38.1" y1="86.36" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="86.36" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="33.02" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="236.22" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
@@ -30174,7 +30181,7 @@ Contact Jenner at &lt;jeh.wicker@gmail.com&gt; for more information</text>
 <segment>
 <pinref part="JP7" gate="G$1" pin="VCC"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
