@@ -14950,12 +14950,12 @@ distributor RS 112-3794</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="GSM_UC15_SYMBOL">
-<wire x1="-22.86" y1="-66.04" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
-<wire x1="50.8" y1="-66.04" x2="-22.86" y2="-66.04" width="0.254" layer="94"/>
-<wire x1="50.8" y1="45.72" x2="50.8" y2="-66.04" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-68.58" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-68.58" x2="-22.86" y2="-68.58" width="0.254" layer="94"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="-68.58" width="0.254" layer="94"/>
 <wire x1="50.8" y1="45.72" x2="-22.86" y2="45.72" width="0.254" layer="94"/>
 <pin name="2-AP_RDY" x="-27.94" y="12.7" length="middle"/>
-<pin name="6-NETLIGHT" x="-27.94" y="7.62" length="middle"/>
+<pin name="6-NETLIGHT" x="55.88" y="-48.26" length="middle" rot="R180"/>
 <pin name="7-VDD_EXT" x="55.88" y="-2.54" length="middle" rot="R180"/>
 <pin name="8-USIM_GND" x="55.88" y="-43.18" length="middle" rot="R180"/>
 <pin name="11-USIM_PRESENCE" x="55.88" y="-17.78" length="middle" rot="R180"/>
@@ -14963,17 +14963,17 @@ distributor RS 112-3794</description>
 <pin name="13-USIM_DATA" x="55.88" y="-30.48" length="middle" rot="R180"/>
 <pin name="14-USIM_CLK" x="55.88" y="-25.4" length="middle" rot="R180"/>
 <pin name="15-USIM_RST" x="55.88" y="-22.86" length="middle" rot="R180"/>
-<pin name="17_!RESET" x="-12.7" y="-71.12" length="middle" rot="R90"/>
-<pin name="18-PWRKEY" x="-7.62" y="-71.12" length="middle" rot="R90"/>
-<pin name="19-AGND" x="55.88" y="-60.96" length="middle" rot="R180"/>
-<pin name="20-SPK2P" x="2.54" y="-71.12" length="middle" rot="R90"/>
-<pin name="21-SPK1N" x="7.62" y="-71.12" length="middle" rot="R90"/>
-<pin name="22-SPK1P" x="12.7" y="-71.12" length="middle" rot="R90"/>
-<pin name="23-MIC1P" x="17.78" y="-71.12" length="middle" rot="R90"/>
-<pin name="24-MIC1N" x="22.86" y="-71.12" length="middle" rot="R90"/>
-<pin name="25-MIC2P" x="27.94" y="-71.12" length="middle" rot="R90"/>
-<pin name="26-MIC2N" x="33.02" y="-71.12" length="middle" rot="R90"/>
-<pin name="RESERVED" x="55.88" y="-50.8" length="middle" rot="R180"/>
+<pin name="17_!RESET" x="-27.94" y="10.16" length="middle"/>
+<pin name="18-PWRKEY" x="-27.94" y="7.62" length="middle"/>
+<pin name="19-AGND" x="55.88" y="-63.5" length="middle" rot="R180"/>
+<pin name="20-SPK2P" x="10.16" y="-73.66" length="middle" rot="R90"/>
+<pin name="21-SPK1N" x="-27.94" y="-2.54" length="middle"/>
+<pin name="22-SPK1P" x="-27.94" y="0" length="middle"/>
+<pin name="23-MIC1P" x="17.78" y="-73.66" length="middle" rot="R90"/>
+<pin name="24-MIC1N" x="22.86" y="-73.66" length="middle" rot="R90"/>
+<pin name="25-MIC2P" x="27.94" y="-73.66" length="middle" rot="R90"/>
+<pin name="26-MIC2N" x="33.02" y="-73.66" length="middle" rot="R90"/>
+<pin name="RESERVED" x="55.88" y="-53.34" length="middle" rot="R180"/>
 <pin name="34-PCM_DOUT" x="-27.94" y="-45.72" length="middle"/>
 <pin name="35-PCM_DIN" x="-27.94" y="-43.18" length="middle"/>
 <pin name="36-PCM_CLK" x="-27.94" y="-40.64" length="middle"/>
@@ -14998,7 +14998,7 @@ distributor RS 112-3794</description>
 <pin name="64-USB_VBUS" x="-27.94" y="-7.62" length="middle"/>
 <text x="-22.86" y="49.276" size="1.778" layer="95">&gt;NAME</text>
 <text x="-22.606" y="46.482" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="55.88" y="-55.88" length="middle" rot="R180"/>
+<pin name="GND" x="55.88" y="-58.42" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
