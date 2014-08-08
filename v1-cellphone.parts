@@ -1,6 +1,6 @@
 Partlist
 
-Exported from v1-cellphone.sch at 8/8/14 4:37 PM
+Exported from v1-cellphone.sch at 8/8/14 4:57 PM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -48,6 +48,8 @@ C36      10pF 10V                             C-EU0603-B                        
 C37      10pF 10V                             C-EU0603-B                                      0603-B                                  rcl_custom          3
 C38      10pF 10V                             C-EU0603-B                                      0603-B                                  rcl_custom          3
 C39      2.2uF                                C-EU0603-B                                      0603-B                                  rcl_custom          3
+C40      10nF 16V                             C-EU0603-B                                      0603-B                                  rcl_custom          2
+C41      100nF 16V                            C-EU0603-B                                      0603-B                                  rcl_custom          3
 J1       AVRISP                               SPARKFUN-CONNECTORS_AVR_SPI_PRG_6NS             SPARKFUN-CONNECTORS_2X3-NS              v1-cellphone        2
 J2       ZX62D-B-5P8                          ZX62D-B-5P8                                     ZX62D-B-5P8                             con-hirose-microusb 1
 J3       PA                                   M08LOCK_LONGPADS                                1X08_LOCK_LONGPADS                      SparkFun-Connectors 2
