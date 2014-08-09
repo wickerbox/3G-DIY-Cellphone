@@ -4948,10 +4948,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <package name="CELLPHONE_SPEAKER-6.4MM">
 <description>Knowles Mini-Siren Speaker (SR6438NWS-000)
 Digi-Key #423-1142-ND</description>
-<circle x="0" y="0" radius="3.2" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="2.65" width="0.0508" layer="21"/>
-<pad name="P$1" x="-1.27" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="P$2" x="1.27" y="0" drill="0.8" shape="long" rot="R90"/>
+<smd name="POS" x="-1.27" y="0" dx="2.54" dy="1.016" layer="1" rot="R90"/>
+<smd name="NEG" x="1.27" y="0" dx="2.54" dy="1.016" layer="1" rot="R90"/>
 </package>
 <package name="CELLPHONE-LED_1206">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
@@ -14669,11 +14668,11 @@ distributor RS 112-3794</description>
 <pin name="(ADC5/PCINT5)PA5" x="38.1" y="30.48" length="middle" rot="R180"/>
 <pin name="(ADC6/PCINT6)PA6" x="38.1" y="27.94" length="middle" rot="R180"/>
 <pin name="(ADC7/PCINT7)PA7" x="38.1" y="25.4" length="middle" rot="R180"/>
-<pin name="(CLKO/T1/PCINT9)PB1" x="-25.4" y="20.32" length="middle"/>
-<pin name="(INT2/AIN0/PCINT10)PB2" x="-25.4" y="17.78" length="middle"/>
+<pin name="(CLKO/T1/PCINT9)PB1" x="38.1" y="20.32" length="middle" rot="R180"/>
+<pin name="(INT2/AIN0/PCINT10)PB2" x="38.1" y="17.78" length="middle" rot="R180"/>
 <pin name="(MISO/PCINT14)PB6" x="-25.4" y="-5.08" length="middle"/>
 <pin name="(MOSI/PCINT13)PB5" x="-25.4" y="-2.54" length="middle"/>
-<pin name="(OC0A/AIN1/PCINT11)PB3" x="-25.4" y="15.24" length="middle"/>
+<pin name="(OC0A/AIN1/PCINT11)PB3" x="38.1" y="15.24" length="middle" rot="R180"/>
 <pin name="(OC0B/!SS!/PCINT12)PB4" x="-25.4" y="-38.1" length="middle"/>
 <pin name="(OC1A/PCINT29)PD5" x="38.1" y="-38.1" length="middle" rot="R180"/>
 <pin name="(OC2A/PCINT31)PD7" x="38.1" y="-55.88" length="middle" rot="R180"/>
@@ -14681,17 +14680,17 @@ distributor RS 112-3794</description>
 <pin name="(RXD0/PCINT24)PD0" x="-25.4" y="-30.48" length="middle"/>
 <pin name="(RXD1/INT0/PCINT26)PD2" x="38.1" y="-17.78" length="middle" rot="R180"/>
 <pin name="(SCK/PCINT15)PB7" x="-25.4" y="-7.62" length="middle"/>
-<pin name="(SCL/PCINT16)PC0" x="38.1" y="15.24" length="middle" rot="R180"/>
-<pin name="(SDA/PCINT17)PC1" x="38.1" y="12.7" length="middle" rot="R180"/>
-<pin name="(TCK/PCINT18)PC2" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="(TDI/PCINT21)PC5" x="38.1" y="2.54" length="middle" rot="R180"/>
-<pin name="(TDO/PCINT20)PC4" x="38.1" y="5.08" length="middle" rot="R180"/>
-<pin name="(TMS/PCINT19)PC3" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="(TOSC1/PCINT22)PC6" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="(TOSC2/PCINT23)PC7" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="(SCL/PCINT16)PC0" x="38.1" y="12.7" length="middle" rot="R180"/>
+<pin name="(SDA/PCINT17)PC1" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="(TCK/PCINT18)PC2" x="38.1" y="7.62" length="middle" rot="R180"/>
+<pin name="(TDI/PCINT21)PC5" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="(TDO/PCINT20)PC4" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="(TMS/PCINT19)PC3" x="38.1" y="5.08" length="middle" rot="R180"/>
+<pin name="(TOSC1/PCINT22)PC6" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="(TOSC2/PCINT23)PC7" x="38.1" y="-5.08" length="middle" rot="R180"/>
 <pin name="(TXD0/PCINT25)PD1" x="-25.4" y="-33.02" length="middle"/>
 <pin name="(TXD1/INT1/PCINT27)PD3" x="38.1" y="-27.94" length="middle" rot="R180"/>
-<pin name="(XCK0/T0/PCINT8)PB0" x="-25.4" y="22.86" length="middle"/>
+<pin name="(XCK0/T0/PCINT8)PB0" x="38.1" y="22.86" length="middle" rot="R180"/>
 <pin name="(XCK1/OC1B/PCINT28)PD4" x="38.1" y="-48.26" length="middle" rot="R180"/>
 <pin name="AREF" x="7.62" y="-63.5" length="middle" direction="pwr" rot="R90"/>
 <pin name="AVCC" x="5.08" y="50.8" length="middle" direction="pwr" rot="R270"/>
@@ -14764,10 +14763,10 @@ distributor RS 112-3794</description>
 <wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NEG" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="POS" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-2.794" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="7.239" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="CELLPHONE-LED_LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -17097,8 +17096,8 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <devices>
 <device name="" package="CELLPHONE_SPEAKER-6.4MM">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
 </connects>
 <technologies>
 <technology name=""/>
