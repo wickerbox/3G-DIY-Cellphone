@@ -3,12 +3,12 @@ Item	Qty	Refdes	Description	Mfr	Mfr P/N	Digikey P/N	Unit Cost	Total Cost
 1	1	ANT1	Antenna, Chip, Calvus, 824-960MHZ SMD	Antenova	A10340	627-1022-1-ND	$4.78	$4.78	
 2	11	C1, C2, C5, C12, C13, C15, C17, C18, C19, C23, C41	Capacitor, Ceramic, 100nF 16V 5% X7R 0603	Samsung	CL10B104JO8NNNC	1276-1061-1-ND	$0.11	$1.21	
 3	3	C3, C4, C39	Capacitor, Ceramic, 4.7uF 16V 10% X7R 0603	Samsung	CL10A475KO8NNNC	1276-1784-1-ND	$0.26	$0.78	
-4	1	C8	Capacitor, Ceramic, 3.9pF 100V NP0 0603	Murata	GQM1885C2A3R9BB01D	490-4841-1-ND	$0.72	$0.96	
-5	10	C6, C7, C9, C24, C27, C28, C29, C33, C34, C35	Capacitor, Ceramic, 33pF 16V 5% X7R 0603	AVX	0603YC330JAT2A	478-6211-1-ND	$0.12	$1.36	
-6	1	C11	Capacitor, Aluminum, 1000uF 50V 20% Radial	Nichicon	UVR1H102MHD	493-1111-ND	$0.96	$0.90	
+4	1	C8	Capacitor, Ceramic, 3.9pF 100V NP0 0603	Murata	GQM1885C2A3R9BB01D	490-4841-1-ND	$0.72	$0.72	
+5	10	C6, C7, C9, C24, C27, C28, C29, C33, C34, C35	Capacitor, Ceramic, 33pF 16V 5% X7R 0603	AVX	0603YC330JAT2A	478-6211-1-ND	$0.12	$1.20	
+6	1	C11	Capacitor, Aluminum, 1000uF 50V 20% Radial	Nichicon	UVR1H102MHD	493-1111-ND	$0.96	$0.96	
 7	2	C10, C14	Capacitor, Ceramic, 18pF 16V 5% NP0 0603	Kemet	C0603C180J4GACTU	399-11141-1-ND	$0.25	$0.50	
 8	1	C40	Capacitor, Ceramic, 10nF 16V 10% X7R 0603	Samsung	CL10B103KO8NNNC	1276-1926-1-ND	$0.10	$0.10	
-9	1	C26	Capacitor, Ceramic, 100uF 16V 20% X5R 1210	Kemet	EMK325ABJ107MM-T	587-3152-1-ND	$2.30	$4.60	
+9	1	C26	Capacitor, Ceramic, 100uF 16V 20% X5R 1210	Kemet	EMK325ABJ107MM-T	587-3152-1-ND	$2.30	$2.30	
 10	8	C21, C25, C30, C31, C32, C36, C37, C38	Capacitor, Ceramic, 10pF 50V 5% NP0 0603	Samsung	CL10C100JB8NCNC	1276-2154-1-ND	$0.10	$0.80	
 11	1	J1	Connector, AVR ISP, 2x3, Male, R/A, 0.1”	Harwin	M20-8760342	952-1922-ND	$0.43	$0.43	
 12	1	J2	Connector, Micro USB-B, SMD with TH Shell	Hirose	ZX62D-B-5P8	H11610CT-ND	$1.20	$1.20	
@@ -35,5 +35,5 @@ Item	Qty	Refdes	Description	Mfr	Mfr P/N	Digikey P/N	Unit Cost	Total Cost
 33	1	X1	Connector, SMA Jack, R/A, 50ohm TH	Emerson	142-0701-301	J501-ND	$7.76	$7.76	
 34	1	X2	Crystal, 8MHz, 18pF SMD	Abracon	ABM3-8.000MHZ-D2Y-T	535-10630-1-ND	$1.09	$1.09	
 35	1	X3	Connector, Smart Card (SIM), Hinged, 6-pin SMD	C&K	C707 10M006 5002	361-1020-1-ND	$1.03	$1.03	
-							SUM	$120.31	Total cost with cell module
-							SUM-CELL	$55.31	Total cost without cell module
+							SUM	$117.94	Total cost with cell module
+							SUM-CELL	$52.94	Total cost without cell module
