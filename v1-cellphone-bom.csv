@@ -1,6 +1,5 @@
 									
 Item	Qty	Refdes	Description	Mfr	Mfr P/N	Digikey P/N	Unit Cost	Total Cost	
-1	1	ANT1	Antenna, Chip, Calvus, 824-960MHZ SMD	Antenova	A10340	627-1022-1-ND	$4.78	$4.78	
 2	11	C1, C2, C5, C12, C13, C15, C17, C18, C19, C23, C41	Capacitor, Ceramic, 100nF 16V 5% X7R 0603	Samsung	CL10B104JO8NNNC	1276-1061-1-ND	$0.11	$1.21	
 3	3	C3, C4, C39	Capacitor, Ceramic, 4.7uF 16V 10% X7R 0603	Samsung	CL10A475KO8NNNC	1276-1784-1-ND	$0.26	$0.78	
 4	1	C8	Capacitor, Ceramic, 3.9pF 100V NP0 0603	Murata	GQM1885C2A3R9BB01D	490-4841-1-ND	$0.72	$0.72	
